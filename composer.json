@@ -1,0 +1,27 @@
+{
+    "name": "clark/inertia-symfony",
+    "description": "A Symfony adapter for Inertia.js",
+    "keywords": ["laravel", "inertia"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Mitchell",
+            "email": "contact@clarkmitchell.dev",
+            "homepage": "https://clarkmitchell.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Inertia\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    }
+}
