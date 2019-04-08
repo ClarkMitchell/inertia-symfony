@@ -1,7 +1,7 @@
 {
     "name": "clark/inertia-symfony",
     "description": "A Symfony adapter for Inertia.js",
-    "keywords": ["laravel", "inertia"],
+    "keywords": ["symfony", "inertia"],
     "type": "library",
     "license": "MIT",
     "authors": [
