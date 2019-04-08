@@ -1,7 +1,7 @@
 {
     "name": "clark/inertia-symfony",
     "description": "A Symfony adapter for Inertia.js",
-    "keywords": ["symfony", "inertia"],
+    "keywords": ["laravel", "inertia"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Inertia\\": "src"
+            "Clark\\Inertia\\": "src"
         }
     },
     "autoload-dev": {

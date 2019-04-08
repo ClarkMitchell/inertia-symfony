@@ -1,0 +1,5 @@
+services:
+  inertia:
+    class: Clark\Inertia
+    arguments:
+      -

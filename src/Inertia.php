@@ -1,6 +1,6 @@
 <?php
 
-namespace Inertia;
+namespace Clark\Inertia;
 
 use Symfony\Component\Templating\EngineInterface;
 use Symfony\Component\HttpFoundation\Request;
