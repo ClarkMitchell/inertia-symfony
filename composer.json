@@ -18,6 +18,7 @@
     },
     "require": {
         "php": "^7.2",
-        "symfony/symfony": "^4.2"
+        "symfony/http-kernel": "^4.2",
+        "symfony/dependency-injection": "^4.2"
     }
 }
