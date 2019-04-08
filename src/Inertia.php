@@ -3,6 +3,7 @@
 namespace Clark\Inertia;
 
 use Symfony\Component\Templating\EngineInterface;
+use Twig\Environment;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
@@ -12,7 +13,7 @@ class Inertia
     protected $sharedProps = [];
     private $engine;
 
-    public function __construct(EngineInterface $engine)
+    public function __construct(Environment $engine)
     {
         $this->engine = $engine;
     }
@@ -40,7 +41,7 @@ class Inertia
                 [
                     'component' => $component,
                     'props' => array_merge($this->sharedProps, $props),
-                    'url' => Request::getRequestUri(),
+                    'url' => $request->getRequestUri(),
                 ],
                 200,
                 [

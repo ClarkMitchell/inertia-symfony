@@ -13,15 +13,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Clark\\Inertia\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
+            "Clark\\Inertia\\": "src/"
         }
     },
     "require": {
-        "php": "^7.2"
+        "php": "^7.2",
+        "symfony/http-kernel": "^4.2",
+        "symfony/dependency-injection": "^4.2"
     }
 }
